@@ -5,7 +5,7 @@ import JSConfetti from 'js-confetti'
 export default function Home() {
   const [userChoice, setUserChoice] = useState("❓");
   const [computerChoice, setComputerChoice] = useState("❓");
-  const [result, setResult] = useState(null);
+  const [result, setResult] = useState("");
   const [playerScore, setPlayerScore] = useState(0);
   const [computerScore, setComputerScore] = useState(0);
   const [playing, setPlaying] = useState(false);
