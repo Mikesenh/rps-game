@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import Image from 'next/image'
 import JSConfetti from 'js-confetti'
 
@@ -71,6 +71,9 @@ export default function Home() {
 
   return (
     <>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
     <nav className="m-4 flex justify-between">
       <span className="flex items-center">
     <Image
