@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Press Start 2P', cursive;
+  
+}
+
+.black-stroke2 {
+  text-shadow: 4px 0 0 #000, 0 -4px 0 #000, 0 4px 0 #000, -4px 0 0 #000;
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
